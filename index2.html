@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Codigo de prueba formularios</title>
+  </head>
+  <body>
+    <!-- Formulario de prueba -->
+    <form method="post" action="./lib/capturador.php">
+      Nombre <br>
+      <input type="text" name="nombre"><br>
+
+      Apellidos <br>
+      <input type="text" name="apellidos"><br>
+
+      Curso <br>
+      <select name="tipocurso">
+        <option value="curso">Curso </option>
+        <option value="1">1º </option>
+        <option value="2">2º </option>
+      </select> <br>
+
+      Ciclo <br>
+      <select name="tipociclo">
+        <option value="ciclo">Ciclo </option>
+        <option value="DAW">DAW </option>
+        <option value="DAM">DAM</option>
+      </select> <br>
+
+      Calificacion PROG <br>
+      <input type="text" name="calificacionprog"><br>
+
+      Calificacion ED <br>
+      <input type="text" name="calificacioned"><br>
+
+      Calificacion LLMM <br>
+      <input type="text" name="calificacionllmm"><br>
+
+      Calificacion BBDD <br>
+      <input type="text" name="calificacionbbdd"><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
